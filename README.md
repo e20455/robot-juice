@@ -1,4 +1,4 @@
-<p>As part of univerity coursework, I created 2 websites for a fictional company. Below is screenshots for the sites.</p>
+<p>As part of university coursework, I created 2 websites for a fictional company. Below is screenshots for the sites.</p>
 <h2>index.html</h2>
 
 ![home-page](https://github.com/e20455/robot-juice/assets/112505418/04050fd8-a55c-4f97-8520-1c34655bd2d9)

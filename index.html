@@ -1,0 +1,173 @@
+<!-- this document contains the html code for the index page -->
+
+<!-- this section contains infomation about the language the page will be in as well as linking to other resourses and files -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Robot Juice - Landing Page</title>
+    <link rel="stylesheet" href="styles/style.css"/>
+    <link rel="stylesheet" href="styles/grid.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Damion&family=Iceberg&display=swap" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="js/poll.js"></script>
+    
+</head>
+<body class="container">
+
+<!-- this part contains the code for the Robot Juice logo -->
+    
+    <header class="headerindex"> 
+        
+    <h1 class="robotjuice">Robot<span class="blackspan">Juice</span><br><span class="captionspan">fictitious cycle lubricants.</span></h1> 
+        
+<!-- this contains code for the navigation bar, it uses list tags -->
+
+    </header>
+        <nav>
+            <ul class="navbarindex">
+                <li class="rednavitem">Home</li> 
+                <li class="navitem">Products</li>
+                <li class="navitem">Protect</li>
+                <li class="navitem">Stocklist's</li>
+                <li class="navitem">Events</li>
+                <li class="lastnavitem">Reviews</li>
+            </ul>
+        </nav>
+
+<!-- contains code for the robot banner image and the caption, image is linked into the file -->
+
+        <main class="main">   
+        <figure class ="largeimage">
+            <img class="robotbanner" src="images/robotbanner.jpg" alt="Robot on a bicyle"/>
+            <figcaption class="mainphotocaption">Robot juice is the ultimate fictitious bicycle and motorcycle<br>lubricant oils.</figcaption>
+        </figure>    
+
+<!-- this line codes for the horizontal line which spreads across the page, which is seen multiple times in the file -->
+        <hr class="line"/>
+
+<!-- this section contains code for the product section, the individual products and the corresponding images ahve classes, allowing their positioning to be manipulated later -->
+        <section class="products">
+            <section class="individualproduct">
+                <img class="productimage" src="images/bikechain-bikeoil.jpg" alt="bikechain" />
+                <section class="caption">
+                <h2 class="prodsubheading1">Bike Oil</h2> 
+                <p>Stops and protects against rust, reduces<br>friction on moving parts and is essential<br>on any cycle.</p>
+                </section>
+            </section>
+            
+            <section class="individualproduct">
+                <img class="productimage" src="images/cycleside-drylubrication.jpg" alt="side of bicycle" />
+                <section class="caption">
+                <h2 class="prodsubheading1">Dry Lubricant</h2> 
+                <p>Perfect chain lubricant for dry road<br>riding. Resists water penetration and<br>wash-off easily.</p>
+                </section>
+            </section>
+
+            <section class="individualproduct">
+                <img class="productimage" src="images/frontcycle-wetlubrication.jpg" alt="front of bicycle"/>
+                    <section class="caption"> 
+                        <h2 class="prodsubheading1">Wet Lubricant</h2>
+                        <p>A thick, heavy duty lube designed to stick<br>to the chain in wet conditions. Ideal for<br>extreme weather and long distance<br>riding.</p>
+            
+                    </section>
+            </section>
+
+            <section class="individualproduct">
+                <img class="productimage" src="images/productreviews.jpg" alt="A hand writing of a piece of paper"/>
+                   <section class="caption">
+                        <h2 class="prodsubheading1">Product Reviews</h2> 
+                        <p>Read what the press and our customers<br>say about our excellent products.</p> 
+                    </section>
+            </section>
+        </section>
+
+        <hr class="line"/>
+
+<!-- this section codes for the news as well as the poll and compeition sections -->
+
+        <section class="newspollcom">
+            <section class="news">
+            <h2 class="subheading1">Latest News</h2> 
+
+            <h3 class="subheading2">News item one!</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure.</p>
+            <p class="date">September, 2012</p> 
+            
+            <h3 class="subheading2">News item one!</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolare magna aliquam eret volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p> 
+            <p class="date">September, 2012</p>
+
+            <h3 class="subheading2">News item one!</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolare magna aliquam eret volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+            <p class="date">September, 2012</p>
+            </section>
+
+            <section class="pollandcom">
+                <section class="poll">    
+                    <h2 class="subheading1">Reader Poll</h2>
+                    <p class="redpollheader">Are Robot Juice the best and most usable and accessible fake oils around?</p>
+                        <div class="aligning">
+                                <div class="row">
+                                    <div class="column">
+                                            <span class="circle"></span>
+                                            <span class="polltext">Yes</span> 
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="column">    
+                                            <span class="circle"></span>
+                                            <span class="polltext">No</span> 
+                                        </div>
+                                    </div>
+                                </div> 
+            
+                </section>
+                <section class="competition">
+                    <h2 class="subheading1">Competition</h2> 
+                    <p>Win absolutely nothing by entering this extremely expensive competition. Robot Juice will not send you a full range of our cycling and motorcycle oils and lubricants as we do not exist. But just for fun.</p>
+                    <p>Which film is our address made up from?</p>
+                    <p>a) Armageddon<br>b) Harry Potter<br>c) The Simpson (Movie)</p> 
+                    <p>answers on a postcard please.</p>
+                </section>    
+            </section>
+        </section>
+
+<!-- this section contains code for the reviews and links section -->  
+
+        <section class="reviewsandlinks">
+        <img src="images/cyclemagazine.jpg" alt="cycling magazine cover" />
+
+        <section class="reviews">
+        <h2 class="redsubheading">Latest Reviews</h2> 
+        <p>Cycling magazine has given Robot<br>Juice a 5 Star rating in its latest<br>reviews of dry lubricants. Robot Juice<br>Dry lube was rated the highest out of<br>over 40 top brand dry lubs.</p>
+        </section>
+
+        <section class="links">
+        <h2 class="redsubheading">Links</h2>
+        <a class="magimg" href= "https://www.edgehill.ac.uk/">Edge Hill University</a> 
+        <br>
+        <a href= "mailto:JohnSmith@gmail.com">J Smith</a>
+        <br>
+        <a href="https://twitter.com">https://twitter.com/Smith_J</a>
+        <br>
+        <a href= "https://learningedge.edgehill.ac.uk">Web Design and<br>Development module</a>
+        </section>
+        </section>
+<!-- this section contains code for the footer section -->
+
+        <section class="footer">
+            <section class="footerleft">
+                <p>Robot Juice Fictitious Products Not Ltd., Unit 9¾, Pivot Drive, Little Whingeing, Surrey DN18 5RP </p>
+                <p>Telephone: +44 (0)234 56789. Email: JohnSmith@gmail.com</p> 
+            </section>
+            <section class="footerright">
+                <p>Contact Us | Privacy | Terms & Conditions | Accessibility</p> 
+                <p>Copyright © 2023 John Smith. Design by John Smith</p>
+            </section>
+        </section>
+    </main>
+</body>
+</html>

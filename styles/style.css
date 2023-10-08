@@ -1,0 +1,345 @@
+/* this document contains the css responsible for styling the elements seen in index.html and product.html. */
+
+/* this styles the whole body section of the page. it sets the background colour and font. */
+body { 
+    background-color: #EEEEEE;
+    font-family: Arial;
+}
+
+/* this section styles the Robot Juice logo */
+
+.robotjuice {
+    font-size: 90px;
+    color: #C5110B;
+    font-family: 'Damion';
+    padding: 33.33px;
+    font-weight: normal;
+}
+
+.blackspan {
+    font-size: 90px;
+    color: #000000;
+    font-family: 'Damion';
+    padding: 33.3px;
+    font-weight: normal;
+}
+
+.captionspan{
+    font-size: 16px;
+    color: #000000;
+    font-family: Arial;
+    font-weight: normal;
+    margin-left: 235px;
+}
+
+/* this styles the navigation bar */
+
+.rednavitem {
+    background-color: #C5110B;
+    color: white;
+}
+
+
+/* these style the product view section seen in product.html, they style the individual lines of text such as altering their positioning and background colour */
+
+.productview {
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 475px;
+}
+
+.buynow {
+    color: white;
+    text-align: center;
+    background-color: #C5110B;
+    width: 400px;
+    padding: 15px;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+}
+
+.dropdownmenusize {
+    font-size: 16px;
+    padding: 10px 8px 10px 14px;
+    background: #fff;
+    border: 1px solid black;
+    border-radius: 6px;
+    position: absolute;
+    width: 180px;
+    top: 100px;
+}
+
+.dropdownmenuquanity {
+    font-size: 16px;
+    padding: 10px 8px 10px 14px;
+    background: #fff;
+    border: 1px solid black;
+    border-radius: 6px;
+    position: absolute;
+    width: 180px;
+    top: 100px;
+    left: 230px;
+}
+
+.share {
+    color: #b1b1b1;
+    display: inline-block;
+    margin-left: 325px;
+    margin-top: -5px;
+}
+
+.icons {
+    display: inline-block;
+    
+
+}
+
+.price {
+    color: #C5110B;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.greyprodtext {
+    color: #b1b1b1;
+    text-align: right;
+    margin-top: 80px;
+}
+
+.producttext  {
+    margin-left: 860px;
+    margin-top:300px;
+    position: absolute;
+}
+
+.productcaption {
+    margin-left: 20px
+}
+.bikeoilimage {
+    border: white solid 10px;
+    width: 494px;
+    height: 331px;
+    position: absolute;
+    top: 400px;
+    left: 330px;;
+    height: 430px;
+    width: auto;
+}
+
+.thumbnail1 {
+    border: red solid 2px; 
+    position: absolute;
+    top: 500px;
+    left: 190px;
+    height: 75px;
+    width: auto;
+}
+
+.thumbnail2 {
+    border: red solid 2px; 
+    position: absolute;
+    top: 400px;
+    left: 190px;
+    height: 75px;
+    width: auto;
+}
+
+.thumbnail3 {
+    border: red solid 2px; 
+    position: absolute;
+    top: 600px;
+    left: 190px;
+    height: 75px;
+    width: auto;
+}
+
+/* this section styles the similar products section for product.html */
+
+.sixproductsandsubheading { 
+    margin-left: 150px;
+    margin-right: 150px;
+    position: relative;
+    margin-top: 360px;
+}
+
+.sixproducts {
+    font-size: 24px;
+    font-family: 'Iceberg';
+    font-weight: bold;
+    color: #444546;
+    text-align: center;
+    font-weight: bold;
+}
+
+.singleprod { 
+    border: 15px solid rgb(116, 130, 116);
+    border-radius: 10px;
+    background-color: rgb(116, 130, 116);
+    width: 160px;
+    height: 160px;
+}
+
+/* this styles the product review section in product.html */
+
+.prodreviewsandsubheading{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.prodreview {
+    display: flex
+}
+
+.reviewimage {
+    height: 90px;
+    width: 90px;
+    border-top: 15px solid #EEEEEE;
+    margin-left: 120px;
+}
+
+.roundedreviewimage {
+    height: 90px;
+    width: 90px;
+    border-top: 10px solid #EEEEEE;
+    margin-left: 120px;
+    border-radius: 25px;;
+}
+
+.whitereviewtext {
+    margin-left: 96px;
+}
+
+.reviewtext {
+    text-align: left;
+    margin-left: 250px;
+}
+
+.review {
+    margin-left: 20px;
+}
+
+.allreviews {
+    margin-left: 505px;
+    margin-right: 150px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #C5110B;
+    width: 220px;
+    padding: 15px
+}
+
+/* this styles the caption used in index.html under the main banner image */
+
+figcaption {
+    font-size: 30px;
+    font-family: 'Iceberg';
+    color: #575859;
+}
+
+/* this styles any of the horizontal lines seen in index.html and product.html */
+
+.line {
+    margin-left: 150px;
+    margin-right: 150px; 
+    border: 1px solid #b1b1b1;
+}
+
+/* this styles any of the subheading1 classes seen in index.html and product.html */
+
+.subheading1 {
+    font-size: 24px;
+    font-family: 'Iceberg', bold;
+    color: #575859;
+}
+
+/* this section styles the news section on index.html */
+
+.subheading2 {
+    color: #A09595
+}
+
+.date {
+    color: #C5110B;
+    font-size: 16px;
+    text-align: right;
+}
+
+/* this styles the poll and competition section on index.html, it also contains code for changing the appearance of a button
+/ once it had been hoovered over, as seen in the poll
+*/
+
+.pollandcom {
+    background-color: white;
+}
+
+.redpollheader {
+    color: #C5110B;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.circle {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+    border-radius: 50%;
+    border: 1px solid black
+}
+
+.circle::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    background-color: white;
+} 
+
+:hover.circle::after {
+    background-color: #000000;
+}
+
+.polltext {
+    margin: 25px;
+}
+
+/* this styles the reviews and links section in both index.html and product.html */
+
+.reviewsandlinks {
+    background-color: white;
+    color: #C5110B;
+}
+
+.redsubheading {
+    font-size: 32px;
+    color: #C5110B;
+}
+
+/* this section styles the footer section seen in index.html and product.html */
+
+a:link{
+    color: #C5110B
+}
+
+a:visited{
+    color: #C5110B
+}
+
+.footer {
+    background-color: #C5110B;
+}

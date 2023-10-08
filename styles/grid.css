@@ -1,0 +1,234 @@
+/* this document is responsible for any of the CSS grid seen in index.html and product.html */
+
+/* this lays out the number of rows and coulumns the pages will have */
+
+.container {  
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-content: center;
+  grid-template-areas:
+    "header"
+    "navbar"
+    "navbar"
+    "largeimage"
+    "largeimage"
+    "largeimage"
+    "largeimage"
+    "largeimage"
+    "largeimage"
+    "products"
+    "products"
+    "products"
+    "products"
+    "newspollcom"
+    "newspollcom"
+    "newspollcom"
+    "newspollcom"
+    "reviewsandlinks"
+    "reviewsandlinks"
+    "reviewsandlinks"
+    "footer"
+    "footer"
+}
+
+/* this styles the header for index.html and product.html, this was done separately as the height didnt appear to the same on the pages when the value was */
+
+.headerindex { 
+  grid-area: header;
+  margin-left: 120px;
+  margin-right: 150px;
+  line-height: 120%;
+  height: 200px;
+  }
+
+.headerproduct { 
+  grid-area: header;
+  margin-left: 120px;
+  margin-right: 150px;
+  line-height: 120%;
+  height: 80px;
+  }
+
+/* this styles the navigation menu for index.html and product.html, it was needed to be separate since the nav bars widths appeared different on the page */
+.navbarindex { 
+  grid-area: navbar;
+  justify-content: space-evenly;
+  margin-left: 109.56px;
+  margin-right: 150px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  color: #575859;
+  height: 66px;
+}
+
+.navbarproduct { 
+  grid-area: navbar;
+  justify-content: space-evenly;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  color: #575859;
+  height: 66px;
+}
+
+
+.rednavitem {
+  background-color: #C5110B;
+  padding: 40px;
+  text-align: center;
+  border-top: 2px solid #b1b1b1;
+  border-bottom: 2px solid #b1b1b1
+}
+
+.navitem {
+  text-align: center;
+  padding: 40px;
+  border-top: 2px solid #b1b1b1;
+  border-right: 2px solid #b1b1b1;
+  border-bottom: 2px solid #b1b1b1
+}
+
+.lastnavitem {
+  text-align: center;
+  padding: 40px;
+  border-top: 2px solid #b1b1b1;
+  border-bottom: 2px solid #b1b1b1
+}
+
+/* this styles for the simliar products section seen in product.html */
+
+.sixproducts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: space-between;
+  margin-left: 45px;
+  border-radius: 15px;
+}
+
+/* this styles the main image section seen in index.html */
+
+.largeimage { 
+  grid-area: largeimage; 
+  grid-row-start: 10;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-bottom: 20px;
+  }
+
+  .robotbanner {
+    width: 1300px;
+    border-bottom: 8px solid #b1b1b1;
+  }
+
+  .mainphotocaption {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  /* this styles the product section seen in index.htmk */
+
+  .products { 
+    grid-area: products;
+    margin-left: 150px;
+    margin-right: 114px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-top:50px;
+    }
+
+  .individualproduct {
+    vertical-align: top;
+  
+  }
+
+  .prodsubheading1 {
+    text-align: left;
+    font-size: 24px;
+    font-family: 'Iceberg', bold;
+    color: #575859;
+  }
+
+  .productimage {
+    height: auto;
+    width: 300px;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .caption {
+  text-align: left;
+  }
+  
+/* this styles the news as well as the poll and competition section seen in index.htmln*/
+
+  .newspollcom {
+    display: flex;
+    margin-top: 40px;
+    border-bottom: 2px solid #b1b1b1;
+  }
+
+  .news { 
+    grid-area: news; 
+    padding: 25px;
+    width: 750px;
+    height: 650px;
+    margin-left: 150px;
+    }
+
+    .pollandcom { 
+    grid-area: pollandcom; 
+    padding: 25px;
+    width: 449px;
+    height: 600px;
+    margin-right: 150px;
+
+    }
+  
+  /* this styles the reviews and links section seen in index.html and product.html */
+
+  .reviewsandlinks { 
+    grid-area: reviewsandlinks; 
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+
+  .reviews {
+    margin-left: 110px;
+    margin-right: 200px;
+    width: 300px;
+  }
+
+  .links{
+    margin-left: 150px;
+    width: 200px;
+    line-height: 150%;
+  }
+  
+  /* this styles the footer section for index.html and product.html */
+  
+  .footer { 
+    grid-area: footer; 
+    background-color: #C5110B;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 70px;
+    display: flex
+  }
+
+  .footerleft {
+    margin-right: 100px;
+  }
+  
+  
+  
